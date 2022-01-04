@@ -18,4 +18,4 @@ console.error("unable to connect to db:", err);
     }
 });
 
-app.use("/api", require("./routes/notes"))
+app.use("/api", require("./routes/notes"));
