@@ -1,0 +1,34 @@
+.nbTitle {
+  font: 300 42px Roboto;
+  width: 90%;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.nbItem {
+  border: 2px solid;
+  border-color: var(--orange);
+  border-left: 0;
+  border-right: 0;
+  width: 90%;
+  margin: auto;
+  margin-top: 20px;
+  transition: 0.25s border-color;
+
+}
+
+.nbItem:hover {
+    border-color: white;
+    transition: 0.25s border-color;
+}
+
+.nbContainer {
+    padding: 5px 0;
+    font: 300 22px Roboto;
+}
+
+.nbContent {
+    font-size: 18px;
+    padding-top: 5;
+    font-weight: 200;
+}

@@ -1,0 +1,40 @@
+.noteContainer {
+    width: 100%;
+    height: 100vh;
+    background-color: var(--middleBlue);
+}
+
+.formTitle {
+    font: 400 48px Roboto;
+    color: var(--white);
+    text-align: center;
+}
+
+.noteInputs {
+    width: 100%;
+    height: 400px;
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.noteInput {
+    width: 40%;
+    margin: auto;
+}
+
+.submit {
+    width: 100%;
+    height: 45px;
+    margin: auto;
+}
+
+.submitContainer {
+    width: 40%;
+    margin: auto;
+}
+
+.wmde-markdown{
+    
+}
