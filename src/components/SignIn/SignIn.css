@@ -1,0 +1,75 @@
+.signContainer {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--blue);
+  width: 100%;
+}
+
+@keyframes fadeout {
+  0% {
+    opacity: 1;
+    z-index: 1;
+  }
+  100% {
+    opacity: 0;
+    z-index: -1;
+  }
+}
+
+#intro {
+  position: fixed;
+  z-index: 2;
+  animation: 0.25s ease-out 0s 1 fadeout;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+}
+
+.signGroup {
+  width: 100%;
+  max-width: 500px;
+  height: fit-content;
+}
+
+#introGroup {
+  max-width: 600px;
+}
+
+.logoContainer {
+  width: 100%;
+  display: flex;
+}
+
+.btLogo {
+  margin: auto;
+}
+
+.messageSpan {
+  font: 40px/68px Bree Serif;
+  text-align: center;
+  margin: auto;
+  color: var(--white);
+}
+
+.inputFields {
+  margin-top: 150px;
+}
+
+.inputField {
+  width: 400px;
+  margin: auto;
+}
+
+#second {
+  margin-top: 32px;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  width: 340px;
+  height: 50px;
+  margin: auto;
+  margin-top: 64px;
+}
