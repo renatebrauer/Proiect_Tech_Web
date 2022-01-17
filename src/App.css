@@ -6,11 +6,11 @@
   --blue: #0A1128;
   --lightBlue: #85b1ff;
   --justBlue: #101c42;
-  --middleBlue: #002d7a;
+  --middleBlue: black;
   --transparentOrange: #fb991c29;
   --transparentGrey: #211e1e4d;
   --transparentBlack: #211e1e29;
   --black: #211e1e;
-  --white: #ffffff;
+  --white: #211e1e;
   --grey: #211e1e4d;
 }

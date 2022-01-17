@@ -11,8 +11,8 @@
   min-height: 1080px;
   width: fit-content;
   position: fixed;
-  background-color: var(--blue);
-  color: white;
+  background-color: var(--transparentBlack);
+  color: black;
 }
 
 .navGroup {
