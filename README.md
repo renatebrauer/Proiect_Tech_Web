@@ -1,3 +1,4 @@
+### `ScuffedOlympics`
 
 Run `npm install` in the project directory for installing the required express, mysql2, sequelize modules.
 
