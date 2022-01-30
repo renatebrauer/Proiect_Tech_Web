@@ -7,7 +7,7 @@ const cors = require('cors')
 const { ForeignKeyConstraintError, json } = require('sequelize')
 const { exists } = require('fs')
 
-const sequelize = new Sequelize('echipadesoc', 'root', '1234', {
+const sequelize = new Sequelize('examAlbuAlex', 'root', '1234', {
     dialect: 'mysql'
 })
 
